@@ -1,0 +1,39 @@
+fun main() {
+    println ("selamat datang di kelas \npemrograman mobile")
+}
+
+fun main() {
+   var nama = "Angello"
+    print ("nama saya adalah $nama")
+}
+fun main() {
+   val bilangan: Byte = 99
+    println("bilangan: $bilangan")
+}
+fun main() {
+   val bilangan: Byte = 128
+    println("bilangan: $bilangan")
+}
+fun main() {
+  var arrNilai = arrayOf<Int>(70,80,60,90)
+  println("Nilai ke 2 : " + arrNilai.get(1))
+}
+fun main() {
+  val nilai = 75
+    if(nilai<70){
+      print("Nilaiku jelek")
+  } else {
+        print("Aku lulus")
+    }
+}
+fun main() {
+  val nilai = 35
+    if(nilai < 50) {
+      print("Nilaiku jelek")
+  } else if(nilai <70) {
+        print("nilai cukup")
+    }
+    else {
+        print("Aku lulus")
+    }
+}
